@@ -16,7 +16,10 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 8000;
 const corsOption = {
-    origin: true
+      origin: 'https://ai-healthcare-6n8s.vercel.app', // Your frontend origin
+  methods: ['GET', 'POST', 'HEAD', 'PUT', 'PATCH', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'Origin', 'X-Requested-With', 'Accept'],
+  credentials: true,
 };
 
 app.get('/', (req, res) => {
