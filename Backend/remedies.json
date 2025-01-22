@@ -1,0 +1,73 @@
+{
+    "Migraine": [
+        "Apply an ice pack to the painful part of your head.",
+        "Use a heating pad on your neck and shoulders to relax the muscles.",
+        "Avoid bright lights and loud sounds."
+    ],
+    "Flu": [
+        "Get plenty of rest.",
+        "Drink plenty of fluids to stay hydrated.",
+        "Use over-the-counter pain relievers to ease body aches."
+    ],
+    "Heart Attack": [
+        "Seek emergency medical help immediately",
+        "Chew aspirin if advised by a healthcare professional",
+        "Rest in a comfortable position",
+        "Avoid strenuous activity",
+        "Stay calm and try to relax"
+    ],
+    "Infection (e.g., flu, common cold)": [
+        "Rest",
+        "Stay hydrated",
+        "Take over-the-counter fever reducers like acetaminophen or ibuprofen",
+        "Use a cool compress",
+        "Wear lightweight clothing",
+        "Monitor temperature"
+      ],
+      "Arthritis, injury, overuse": [
+        "Apply ice or heat packs",
+        "Take over-the-counter pain relievers like ibuprofen or acetaminophen",
+        "Rest the affected joint",
+        "Use assistive devices if necessary",
+        "Perform gentle exercises or stretches"
+      ],
+      "Asthma, pneumonia, anxiety, heart problems": [
+        "Sit upright",
+        "Use a fan or open a window for fresh air",
+        "Practice pursed lip breathing",
+        "Use a rescue inhaler if prescribed",
+        "Seek emergency medical help if severe"
+      ],
+      "Dehydration, inner ear problems, low blood pressure": [
+        "Sit or lie down in a safe place",
+        "Drink water or electrolyte drinks",
+        "Avoid sudden movements",
+        "Practice deep breathing exercises",
+        "Slowly change positions",
+        "Avoid alcohol and caffeine"
+      ],
+      "Stomach flu, food poisoning, motion sickness": [
+        "Drink clear fluids like water or ginger tea",
+        "Eat bland foods like crackers or toast",
+        "Avoid spicy or greasy foods",
+        "Rest in a comfortable position",
+        "Take over-the-counter anti-nausea medication if necessary"
+      ],
+      "Sleep deprivation, stress, anemia, depression": [
+        "Get adequate sleep",
+        "Maintain a balanced diet",
+        "Exercise regularly",
+        "Manage stress levels",
+        "Avoid caffeine and alcohol",
+        "Practice relaxation techniques"
+      ],
+      "Viral or bacterial infection": [
+        "Gargle with warm salt water",
+        "Drink plenty of fluids",
+        "Use throat lozenges or numbing sprays",
+        "Avoid irritants like smoking or polluted air",
+        "Rest"
+      ]
+
+   
+}

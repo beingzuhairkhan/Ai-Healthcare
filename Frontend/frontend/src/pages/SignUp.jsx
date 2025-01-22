@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import signUp from '../assets/images/signup.gif'
-import avatar from "../assets/images/doctor-img01.png"
+
 import { Link, useNavigate } from 'react-router-dom';
 // import UploadCloudinary from "../utils/UploadCloudinary.js"
 import UploadCloudinary from "../utils/UploadCloudinary.js"
@@ -31,7 +31,7 @@ const SignUp = () => {
   const handleFileSumbit = async event => {
     const file = event.target.files[0];
     const data = await UploadCloudinary(file)
-    console.log(data)
+    //console.log(data)
     setPreviewUrl(data.url)
     setSeletecdFile(data.url)
     setFormdata({ ...formdata, photo: data.url })

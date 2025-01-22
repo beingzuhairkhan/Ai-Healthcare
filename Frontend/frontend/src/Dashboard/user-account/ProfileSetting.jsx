@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
 import { Link, useNavigate } from 'react-router-dom';
 import UploadCloudinary from '../../utils/UploadCloudinary.js';
 import { BASE_URL, token } from '../../../config.js';
@@ -16,16 +17,17 @@ const ProfileSetting = ({ user }) => {
         gender: "",
         bloodType: "",
     });
+   // console.log("user" , user)
 
     const navigate = useNavigate();
 
     useEffect(() => {
         setFormData({
-            name: user.name,
-            email: user.email,
-            photo: user.photo,
-            gender: user.gender,
-            bloodType: user.bloodType
+            name: user?.name || "",
+            email: user?.email || "",
+            photo: user?.photo || null,
+            gender: user?.gender || "",
+            bloodType: user?.bloodType || ""
         });
     }, [user]);
 
@@ -116,5 +118,16 @@ const ProfileSetting = ({ user }) => {
         </div>
     );
 };
+ProfileSetting.propTypes = {
+    user: PropTypes.shape({
+        name: PropTypes.string,
+        email: PropTypes.string,
+        photo: PropTypes.string,
+        gender: PropTypes.string,
+        bloodType: PropTypes.string,
+        _id: PropTypes.string.isRequired
+    }).isRequired
+};
 
 export default ProfileSetting;
+// export default ProfileSetting;

@@ -1,5 +1,5 @@
-import React, { useState , useContext} from 'react'
-import { BsHandIndex } from 'react-icons/bs';
+import  { useState , useContext} from 'react'
+
 import { Link , useNavigate } from 'react-router-dom';
 import { BASE_URL } from '../../config.js';
 import { toast } from 'react-toastify';

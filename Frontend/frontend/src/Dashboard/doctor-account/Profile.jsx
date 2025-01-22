@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import { AiOutlineDelete } from 'react-icons/ai';
 import UploadCloudinary from '../../utils/UploadCloudinary';
 import { BASE_URL, token } from '../../../config.js';
@@ -22,10 +22,11 @@ const Profile = ({doctorData}) => {
 
 
     });
+   // console.log("doctorData" ,doctorData)
 
     useEffect(()=>{
         setFormData({
-            name:doctorData?.name,
+            name:doctorData?.name ,
             email: doctorData?.email,
         
         phone: doctorData?.phone,

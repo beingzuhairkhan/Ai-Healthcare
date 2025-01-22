@@ -1,0 +1,15 @@
+[
+    { "symptom": "I have a headache", "condition": "Migraine" },
+    { "symptom": "I have a cough ", "condition": "Flu" },
+    { "symptom": "I feel chest pain", "condition": "Heart Attack" },
+    { "symptom": "I feel Fever", "condition": "Infection (e.g., flu, common cold)" },
+    { "symptom": "I feel Joint pain", "condition": "Arthritis, injury, overuse" },
+    { "symptom": "I feel Shortness of breath", "condition": "Asthma, pneumonia, anxiety, heart problems" },
+    { "symptom": "I feel Dizziness", "condition": "Dehydration, inner ear problems, low blood pressure" },
+    { "symptom": "I feel Nausea", "condition": "Stomach flu, food poisoning, motion sickness" },
+    { "symptom": "I feel Fatigue", "condition": "Sleep deprivation, stress, anemia, depression" },
+    { "symptom": "I feel Sore throat", "condition": "Viral or bacterial infection" }
+
+   
+
+]

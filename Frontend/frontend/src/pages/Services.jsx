@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { services } from '../assets/data/services.js'
 import ServiceCard  from "../components/services/ServiceCard.jsx"
 const Services = () => {

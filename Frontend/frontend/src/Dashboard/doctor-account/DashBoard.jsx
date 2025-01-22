@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Loader from "../../components/loader/Loading.jsx"
 import Error from '../../components/Error/Error.jsx'
 import UploadCloudinary from "../../hooks/useFetchData.jsx"

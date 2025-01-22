@@ -1,4 +1,4 @@
-import React, { useEffect, useRef , useContext} from 'react';
+import  { useEffect, useRef , useContext} from 'react';
 
 import Logo from "../../assets/images/logo.png"
 // import avatar from "../../assets/images/avatar-icon.png"
@@ -19,8 +19,12 @@ const navLink = [
     display:'Services'
     },
     {
-    path:'/contact',
-    display:'Contact'
+    path:'/SymptomChecker',
+    display:'SymptomChecker'
+    },
+    {
+    path:'/Location',
+    display:'Location'
     },
 
 
@@ -52,9 +56,11 @@ const Header = () => {
       <div className='container'>
         <div className='flex items-center justify-between'>
             {/* LOGO */}
+            <Link href="/" >
             <div>
             <img src={Logo} alt='' className="h-[80px] w-[80px] bg-white rounded-full"></img>
             </div>
+            </Link>
 
              {/* menu */}
              <div className='navigation flex justify-between gap-5' ref={menuRef} onClick={toggleMenu}>
@@ -75,9 +81,9 @@ const Header = () => {
                 {token && user ? (<div >
                     <Link to={`${role === 'doctor' ? '/doctors/profile/me' : '/users/profile/me'}`}>
                         <figure className="w-[35px] h-[35px] rounded-full cursor-pointer ">
-                            <img src={user?.photo} alt='' className="rounded-full w-full border border-solid border-black ml-[45px]" /> 
+                            <img src={user?.photo} alt='' className="rounded-full w-full border border-solid  border-black  ml-4" /> 
                         </figure>
-                        <h1 className="text-[20px] font-bold font-serif">{user?.name}</h1>
+                        {/* <h1 className="text-[20px] font-bold font-serif">{user?.name}</h1> */}
                     </Link>
                 </div>): ( <Link to='/login'>
                     <button className="bg-primaryColor py-2 px-6 text-white font-[600] h-[44px] flex items-center justify-center rounded-[10px]">Login</button>
